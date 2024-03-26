@@ -1,52 +1,50 @@
-# Project Name
-> Outline a brief description of your project.
+# Customer Support Ticket Classification Model
+> The contact center analytics team has been requested to develop insights as to what is driving tickets being logged into their contact centre as they cannot trust the ‘Ticket Type’ and ‘Ticket Subject’ fields that agents select in the CRM. They have retrieved a set of tickets and need to develop insights, to help give the contact center guidance on what most of their ticket drivers are about.
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The contact center analytics team has been requested to develop insights as to what is driving tickets being logged into their contact centre as they cannot trust the ‘Ticket Type’ and ‘Ticket Subject’ fields that agents select in the CRM. They have retrieved a set of tickets and need to develop insights, to help give the contact center guidance on what most of their ticket drivers are about.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## **Instructions:**
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+In this case study, you will be working with the Customer Support Ticket Dataset from Kaggle (https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset). Use the trusted data available in the tickets, including the Ticket Description that the customer has provided. Do not use the untrusted fields.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+1.	Using Python and your preferred IDE, import the data through any appropriate method (API preferred, or directly imported)
+
+2.	Analyze the data and pre-process the data if and where required, develop any appropriate additional features that you feel necessary for the modeling.
+
+3.	Prepare the data appropriately for modeling to take place.
+
+4.	Using appropriate Python packages/libraries, build an unsupervised topic model that allocates a topic to each ticket.
+
+5.	Use a supervised classification model to follow a similar approach, by pre-defining and pre-labelling the tickets with a topic and training and testing a classification model. Use no more than 50 different pre-defined topics.
+
+6.	Chose the model that you deem most suitable (the supervised classification model or the unsupervised topic model) and visualise the data and model output into a BI visualization tool, such as Power BI, Tableau or other (free/trial). Apply useful titles and filters so users can interact with the data.
+
+7.	Ensure to comment your code, to ensure the evaluator can understand your thinking.
+
+8.	Submit your Notebook file as well as the dashboard file, as your deliverables.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python (pandas, numpy, matplotlib, seaborn, sklearn, gensin)
+- Goggle Drive & Colab
+- Power BI
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by Kaggle dataset provided by deloitte.
+- References: stack overflow, Wiki
+- This project was based on https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@subham0206] - feel free to contact me!
